@@ -93,14 +93,14 @@ public static class Program
                         int value;
                         do
                         {
-                            Console.Write("Введите значение для добавления: ");
+                            Console.Write("Введите позицию для добавления: ");
                             inp = Console.ReadLine();
                         } while (!int.TryParse(inp, out value));
 
                         int idx;
                         do
                         {
-                            Console.Write("Введите позицию для добавления элемента: ");
+                            Console.Write("Введите значение для добавления элемента: ");
                             inp = Console.ReadLine();
                         } while (!int.TryParse(inp, out idx));
 
