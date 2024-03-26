@@ -1,0 +1,15 @@
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.GeneratedMSBuildEditorConfig.editorconfig
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.AssemblyInfoInputs.cache
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.AssemblyInfo.cs
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.csproj.CoreCompileInputs.cache
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.sourcelink.json
+D:\labSpace\c#\data-structure\lab03\lab03\bin\Debug\net8.0\lab03.exe
+D:\labSpace\c#\data-structure\lab03\lab03\bin\Debug\net8.0\lab03.deps.json
+D:\labSpace\c#\data-structure\lab03\lab03\bin\Debug\net8.0\lab03.runtimeconfig.json
+D:\labSpace\c#\data-structure\lab03\lab03\bin\Debug\net8.0\lab03.dll
+D:\labSpace\c#\data-structure\lab03\lab03\bin\Debug\net8.0\lab03.pdb
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.dll
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\refint\lab03.dll
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.pdb
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\lab03.genruntimeconfig.cache
+D:\labSpace\c#\data-structure\lab03\lab03\obj\Debug\net8.0\ref\lab03.dll
