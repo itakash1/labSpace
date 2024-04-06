@@ -1,4 +1,4 @@
-namespace lab02;
+namespace lab03;
 
 public interface IVectorable
 {

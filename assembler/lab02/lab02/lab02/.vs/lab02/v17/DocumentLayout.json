@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Takashi\\Desktop\\lab02\\",
+  "WorkspaceRootPath": "D:\\labSpace\\assembler\\lab02\\lab02\\lab02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F9E2894-9F90-439F-AC44-81BF59637070}|lab02\\lab02.vcxproj|C:\\Users\\Takashi\\Desktop\\lab02\\lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1F9E2894-9F90-439F-AC44-81BF59637070}|lab02\\lab02.vcxproj|D:\\labSpace\\assembler\\lab02\\lab02\\lab02\\lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F9E2894-9F90-439F-AC44-81BF59637070}|lab02\\lab02.vcxproj|solutionrelative:lab02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "lab02.cpp",
-              "DocumentMoniker": "C:\\Users\\Takashi\\Desktop\\lab02\\lab02\\lab02.cpp",
+              "DocumentMoniker": "D:\\labSpace\\assembler\\lab02\\lab02\\lab02\\lab02\\lab02.cpp",
               "RelativeDocumentMoniker": "lab02\\lab02.cpp",
-              "ToolTip": "C:\\Users\\Takashi\\Desktop\\lab02\\lab02\\lab02.cpp",
+              "ToolTip": "D:\\labSpace\\assembler\\lab02\\lab02\\lab02\\lab02\\lab02.cpp",
               "RelativeToolTip": "lab02\\lab02.cpp",
-              "ViewState": "AQIAACUAAAAAAAAAAAAwwCwAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-16T12:57:33.931Z",
               "EditorCaption": ""

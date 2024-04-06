@@ -1,7 +1,7 @@
-﻿using lab02;
+﻿using lab03;
 using System;
 
-namespace lab02;
+namespace lab03;
 
 public static class Program
 {

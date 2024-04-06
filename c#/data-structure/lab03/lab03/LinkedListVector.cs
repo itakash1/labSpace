@@ -1,6 +1,6 @@
 using System.Xml.Linq;
 
-namespace lab02;
+namespace lab03;
 
 public class LinkedListVector : IVectorable
 {

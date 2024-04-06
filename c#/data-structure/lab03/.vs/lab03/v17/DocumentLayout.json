@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\labSpace\\c#\\data-structure\\lab03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|d:\\labspace\\c#\\data-structure\\lab03\\lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|solutionrelative:lab03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|d:\\labspace\\c#\\data-structure\\lab03\\lab03\\arrayvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|solutionrelative:lab03\\arrayvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|d:\\labspace\\c#\\data-structure\\lab03\\lab03\\ivectorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|solutionrelative:lab03\\ivectorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|d:\\labspace\\c#\\data-structure\\lab03\\lab03\\linkedlistvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|solutionrelative:lab03\\linkedlistvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|d:\\labspace\\c#\\data-structure\\lab03\\lab03\\vectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA084A3-6F91-4E6F-8BDF-6BBB6736EB50}|lab03\\lab03.csproj|solutionrelative:lab03\\vectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vectors.cs",
+              "DocumentMoniker": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\Vectors.cs",
+              "RelativeDocumentMoniker": "lab03\\Vectors.cs",
+              "ToolTip": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\Vectors.cs",
+              "RelativeToolTip": "lab03\\Vectors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:37:42.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\Program.cs",
+              "RelativeDocumentMoniker": "lab03\\Program.cs",
+              "ToolTip": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\Program.cs",
+              "RelativeToolTip": "lab03\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:37:39.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkedListVector.cs",
+              "DocumentMoniker": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\LinkedListVector.cs",
+              "RelativeDocumentMoniker": "lab03\\LinkedListVector.cs",
+              "ToolTip": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\LinkedListVector.cs",
+              "RelativeToolTip": "lab03\\LinkedListVector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:37:36.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IVectorable.cs",
+              "DocumentMoniker": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\IVectorable.cs",
+              "RelativeDocumentMoniker": "lab03\\IVectorable.cs",
+              "ToolTip": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\IVectorable.cs",
+              "RelativeToolTip": "lab03\\IVectorable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:37:33.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArrayVector.cs",
+              "DocumentMoniker": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\ArrayVector.cs",
+              "RelativeDocumentMoniker": "lab03\\ArrayVector.cs",
+              "ToolTip": "D:\\labSpace\\c#\\data-structure\\lab03\\lab03\\ArrayVector.cs",
+              "RelativeToolTip": "lab03\\ArrayVector.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:37:29.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
