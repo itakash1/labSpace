@@ -7,7 +7,7 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Лабораторная работа #2\n 6104-020302D - Маликов Николай");
+        Hello();
 
         string input;
 
@@ -71,7 +71,7 @@ public static class Program
                             inp = Console.ReadLine();
                         } while (!int.TryParse(inp, out value));
 
-                        vec.AddElementToStart(value);
+                        vec.InsertToStart(value);
                         vec.Log("Обновленный вектор");
                         break;
                     }
@@ -84,7 +84,7 @@ public static class Program
                             inp = Console.ReadLine();
                         } while (!int.TryParse(inp, out value));
 
-                        vec.AddElementToEnd(value);
+                        vec.InsertToEnd(value);
                         vec.Log("Обновленный вектор");
                         break;
                     }
@@ -106,7 +106,7 @@ public static class Program
 
                         try
                         {
-                            vec.AddElementAtPosition(idx, value);
+                            vec.InsertByIndex(idx, value);
                             vec.Log("Обновленный вектор");
                         }
                         catch (IndexOutOfRangeException e)
@@ -119,7 +119,7 @@ public static class Program
                     {
                         try
                         {
-                            vec.RemoveElementFromStart();
+                            vec.DeleteFromStart();
                             vec.Log("Обновленный вектор");
                         }
                         catch
@@ -132,7 +132,7 @@ public static class Program
                     {
                         try
                         {
-                            vec.RemoveElementFromEnd();
+                            vec.DeleteFromEnd();
                             vec.Log("Обновленный вектор");
                         }
                         catch
@@ -152,7 +152,7 @@ public static class Program
 
                         try
                         {
-                            vec.RemoveElementAtPosition(idx);
+                            vec.DeleteByIndex(idx);
                             vec.Log("Обновленный вектор");
                         }
                         catch (IndexOutOfRangeException e)
@@ -223,5 +223,9 @@ public static class Program
                     break;
             }
         }
+    }
+    public static void Hello()
+    {
+        Console.WriteLine("Лабораторная работа #2\n 6104-020302D - Маликов Николай");
     }
 }

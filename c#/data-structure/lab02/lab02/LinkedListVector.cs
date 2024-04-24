@@ -4,189 +4,207 @@ namespace lab02;
 
 public class LinkedListVector
 {
+    private Node head;
+
     private class Node
     {
-        public int Data { get; set; }
-        public Node Next { get; set; }
+        public int value = 0;
+        public Node next = null;
 
-        public Node()
+        public Node(int value)
         {
-            Data = 0;
-            Next = null;
-        }
-
-        public Node(int data)
-        {
-            Data = data;
-            Next = null;
+            this.value = value;
+            next = null;
         }
     }
 
-    private Node head;
-    private int length;
-
+    public LinkedListVector()
+    {
+        var r = new Random();
+        
+        head = new Node(r.Next(100));
+        Node cur = head;
+        
+        for (int i = 0; i < 5; i++)
+        {
+            cur.next = new Node(r.Next(100));
+            cur = cur.next;
+        }
+    }
+    
     public LinkedListVector(int length)
     {
-        this.length = length;
-        head = new Node();
-        Node current = head;
-        for (int i = 1; i < length; i++)
+        var r = new Random();
+        
+        head = new Node(r.Next(100));
+        Node cur = head;
+        
+        for (int i = 0; i < length; i++)
         {
-            current.Next = new Node();
-            current = current.Next;
+            cur.next = new Node(r.Next(100));
+            cur = cur.next;
         }
     }
 
-    public LinkedListVector() : this(5) { }
-
-    public int this[int index]
+    public int this[int idx]
     {
         get
         {
-            if (index < 0 || index >= length)
+            if (0 <= idx && idx <= Length)
             {
-                throw new IndexOutOfRangeException("Invalid index");
+                Node cur = head;
+                for (int i = 0; i < idx; i++)
+                {
+                    cur = cur.next;
+                }
+
+                return cur.value;
             }
-            Node current = head;
-            for (int i = 0; i < index; i++)
+            else
             {
-                current = current.Next;
+                throw new IndexOutOfRangeException("Индекс за границами связного списка");
             }
-            return current.Data;
+        }
+        
+        set
+        {
+            if (0 <= idx && idx <= Length)
+            {
+                Node cur = head;
+                for (int i = 0; i < idx; i++)
+                {
+                    cur = cur.next;
+                }
+
+                cur.value = value;
+            }
+            else
+            {
+                throw new IndexOutOfRangeException("Индекс за границами связного списка");
+            }
+        }
+    }
+
+    public int Length // свойство - return кол-во узлов в списке
+    {
+        get
+        {
+            if (head == null)
+            {
+                return -1;
+            }
+
+            int length = 0;
+            Node cur = head;
+            while (cur.next != null)
+            {
+                cur = cur.next;
+                length++;
+            }
+
+            return length;
         }
     }
 
     public double GetNorm()
     {
-        double norm = 0;
-        Node current = head;
-        while (current != null)
+        double acc = 0;
+        Node cur = head;
+        for (int i = 0; i < Length; i++)
         {
-            norm += Math.Pow(current.Data, 2);
-            current = current.Next;
-        }
-        return Math.Sqrt(norm);
-    }
-
-    public int Length
-    {
-        get { return length; }
-    }
-
-    public void AddElementToEnd(int element)
-    {
-        Node current = head;
-        while (current.Next != null)
-        {
-            current = current.Next;
-        }
-        current.Next = new Node(element);
-        length++;
-    }
-
-    public void AddElementToStart(int element)
-    {
-        Node newHead = new Node(element);
-        newHead.Next = head;
-        head = newHead;
-        length++;
-    }
-
-    public void AddElementAtPosition(int element, int position)
-    {
-        if (position < 0 || position > length)
-        {
-            throw new IndexOutOfRangeException("Invalid position");
+            acc += Math.Pow(cur.value, 2);
+            cur = cur.next;
         }
 
-        if (position == 0)
-        {
-            AddElementToStart(element);
+        return Math.Sqrt(acc);
+    }
+    
+    public void InsertByIndex(int idx, int value)
+    {
+        if (idx < 0 || idx > Length) throw new IndexOutOfRangeException("Индекс за границами связного списка");
+
+        Node node = new Node(value); // создаем новый узел со значением с которым будем работать т.е вставлять в список
+
+        if (idx == 0) {
+            node.next = head;
+            head = node;
             return;
         }
 
-        Node current = head;
-        for (int i = 1; i < position; i++)
-        {
-            current = current.Next;
+        Node cur = head;
+        int curIndex = 0;
+        while (cur != null && curIndex < idx - 1) {
+            cur = cur.next;
+            curIndex++;
         }
 
-        Node newNode = new Node(element);
-        newNode.Next = current.Next;
-        current.Next = newNode;
+        if (cur == null) throw new IndexOutOfRangeException("Индекс за границами связного списка");
 
-        length++;
+        node.next = cur.next;   //для следующего уже созданного узла (node) ставится следующий узел текущего (cur) => все двигается *** 
+        cur.next = node;        // Если индекс равен нулю, то новый узел становится
+                                // головой списка, иначе он добавляется после существующего узла с индексом, предшествующим указанному.
     }
 
-    public void RemoveElementFromEnd()
+    public void InsertToStart(int value)
     {
-        if (head == null || head.Next == null)
-        {
-            throw new InvalidOperationException("Cannot remove from an empty list");
-        }
-
-        Node current = head;
-        while (current.Next.Next != null)
-        {
-            current = current.Next;
-        }
-
-        current.Next = null;
-        length--;
+        InsertByIndex(0, value);
     }
-
-    public void RemoveElementFromStart()
+    
+    public void InsertToEnd(int value)
     {
-        if (head == null)
-        {
-            throw new InvalidOperationException("Cannot remove from an empty list");
-        }
-
-        head = head.Next;
-        length--;
+        InsertByIndex(Length, value);
     }
-
-    public void RemoveElementAtPosition(int position)
+    
+    public void DeleteByIndex(int idx)
     {
-        if (position < 0 || position >= length)
-        {
-            throw new IndexOutOfRangeException("Invalid position");
-        }
+        if (head == null) throw new Exception("Связный список пуст");
+        if (idx < 0 || idx >= Length) throw new IndexOutOfRangeException("Индекс за границами связного списка");
 
-        if (position == 0)
+        Node cur = head;
+
+        if (idx == 0) 
         {
-            RemoveElementFromStart();
+            head = cur.next;
             return;
         }
 
-        Node current = head;
-        for (int i = 1; i < position; i++)
+        for (int i = 0; cur != null && i < idx - 1; i++)
         {
-            current = current.Next;
+            cur = cur.next;
         }
 
-        current.Next = current.Next.Next;
+        if (cur == null || cur.next == null) return;
 
-        length--;
+        cur.next = cur.next.next;
+    }
+
+    public void DeleteFromStart()
+    {
+        DeleteByIndex(0);
+    }
+
+    public void DeleteFromEnd()
+    {
+        DeleteByIndex(Length - 1);
     }
 
     public void Log(string message = "")
     {
         if (message != "") Console.Write($"{message}: ");
-
-        var current = head;
+        
+        var cur = head;
         Console.Write("{");
-        while (current != null)
+        while (cur.next != null)
         {
-            if (current.Next == null)
+            if (cur.next.next == null)
             {
-                Console.Write(current.Data);
+                Console.Write(cur.value);
             }
             else
             {
-                Console.Write(current.Data + ", ");
+                Console.Write(cur.value + ", ");
             }
-            current = current.Next;
+            cur = cur.next;
         }
         Console.WriteLine("}");
     }
