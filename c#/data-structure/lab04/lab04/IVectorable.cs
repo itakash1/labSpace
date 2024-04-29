@@ -14,5 +14,6 @@ public interface IVectorable
     }
 
     double GetNorm();
+    
     void Log(string message = "");
 }

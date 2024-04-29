@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Dynamic;
 using System.Linq;
+using System.Runtime.Intrinsics;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace lab04
 {
-    public class ArrayVector : IVectorable
+    public class ArrayVector : IVectorable, IComparable
     {
         int[] coordinates;
 
@@ -121,7 +123,64 @@ namespace lab04
             }
             return vec;
         }
-        
+
+        public int CompareTo(object? obj)
+        {
+            if (!(obj is IVectorable))
+            {
+                throw new Exception("Можно сравнить только объекты типа IVectorable");
+            }
+            IVectorable vec = (IVectorable)obj;
+            if (vec.Length == this.Length)
+            {
+                return 0;
+            } 
+            else if (vec.Length > this.Length)
+            {
+                return -1;
+            } 
+            else
+            {
+                return 1;
+            }
+        }
+        public override bool Equals(object? obj)
+        {
+            if (!(obj is IVectorable))
+            {
+                throw new Exception("Можно сравнивать только объекты типа IVectorable");
+            }
+            
+            IVectorable vec = (IVectorable)obj;
+
+            if (vec.Length != this.Length)
+            {
+                return false;
+            }
+            
+            for (int i = 0; i < vec.Length; i++)
+            {
+                if (vec[i] != this[i])
+                {
+                    return false;
+                }
+            }
+            
+            return true;
+        }
+
+        public object Clone()
+        {
+            ArrayVector clone = new ArrayVector(Length);
+
+            for (int i = 0; i < Length; i++)
+            {
+                clone[i] = this[i];
+            }
+
+            return clone;
+        }
+
         public override string ToString()
         {
             string result = Length.ToString() + ' ';
