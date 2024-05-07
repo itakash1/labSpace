@@ -9,15 +9,15 @@ public static class Program
     {
         Console.WriteLine("Лабораторная работа #4\n 6104-020302D - Маликов Николай");
         TestArrayVectorsClass();
-       
     }
 
 
     public static void TestArrayVectorsClass()
     {
-        List<IVectorable> arr = new List<IVectorable>();
-        string inp;
+        /*List<IVectorable> arr = new List<IVectorable>();*/
+        IVectorable[] arr = new IVectorable[0];
         LogVectors(arr);
+        string inp;
         while (true)
         {
             Console.WriteLine("Выберете класс для работы:\n\n" +
@@ -35,12 +35,20 @@ public static class Program
             switch (inp)
             {
                 case "1":
-                    arr.Add(CreateVector());
+                    /*arr.Add(CreateVector());*/
+                    IVectorable[] newArr = new IVectorable[arr.Length + 1];
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        newArr[i] = arr[i];
+                    }
+                    
+                    newArr[newArr.Length - 1] = CreateVector();
+                    arr = newArr;
                     break;
                 case "2":
                     Console.WriteLine("Укажите индекс по которому хотитете удалить вектор:");
                     int inp1 = Convert.ToInt32(Console.ReadLine());
-                    arr.Remove(arr[inp1 - 1]);
+                    //arr.Remove(arr[inp1 - 1]);
                     LogVectors(arr);
                     break;
                 case "3":
@@ -49,7 +57,7 @@ public static class Program
                         int minLength = arr[0].Length;
                         int maxLength = arr[0].Length;
 
-                        for (int i = 0; i < arr.Count; i++)
+                        for (int i = 0; i < arr.Length; i++)
                         {
                             if (maxLength < arr[i].Length)
                             {
@@ -63,7 +71,7 @@ public static class Program
                         }
 
                         Console.WriteLine("Вектора с мин. значением координат: ");
-                        for (int i = 0; i < arr.Count; i++)
+                        for (int i = 0; i < arr.Length; i++)
                         {
                             if (arr[i].Length == minLength)
                             {
@@ -72,7 +80,7 @@ public static class Program
                         }
 
                         Console.WriteLine("Вектора с макс. значением координат: ");
-                        for (int i = 0; i < arr.Count; i++)
+                        for (int i = 0; i < arr.Length; i++)
                         {
                             if (arr[i].Length == maxLength)
                             {
@@ -91,9 +99,9 @@ public static class Program
                     IVectorable temp;
                     Comparer comparer = new Comparer();
 
-                    for (int i = 0; i < arr.Count - 1; i++)
+                    for (int i = 0; i < arr.Length - 1; i++)
                     {
-                        for (int j = i + 1; j < arr.Count; j++)
+                        for (int j = i + 1; j < arr.Length; j++)
                         {
                             if (comparer.Compare(arr[i], arr[j]) > 0)
                             {
@@ -106,7 +114,7 @@ public static class Program
                     
                     Console.WriteLine("Список векторов после сортировки по модулю: ");
 
-                    for (int i = 0; i < arr.Count; ++i)
+                    for (int i = 0; i < arr.Length; ++i)
                     {
                         IVectorable vec1 = arr[i];
                         vec1.Log($"{i + 1} Модуль: {vec1.GetNorm()}");
@@ -121,7 +129,7 @@ public static class Program
                     {
                         Console.Write("Введите номер вектора для клонирования: ");
                         input = Console.ReadLine();
-                    } while (!Int32.TryParse(input, out idx) || idx < 1 || idx > arr.Count);
+                    } while (!Int32.TryParse(input, out idx) || idx < 1 || idx > arr.Length);
 
                     var vec = arr[idx - 1];
                     IVectorable clone;
@@ -134,7 +142,7 @@ public static class Program
                         clone = (vec as LinkedListVector).Clone() as IVectorable;
                     }
                     
-                    arr.Add(clone);
+                    //arr.Add(clone);
                     LogVectors(arr);
                     break;
                 case "6":
@@ -182,8 +190,6 @@ public static class Program
     public static void TestLinkedListVectorClass(LinkedListVector vec)
     {
         string inp;
-        
-        vec.Log("Созданный вектор");
         while (true)
         {
             Console.WriteLine("Выберете действие:\n\n" +
@@ -343,10 +349,9 @@ public static class Program
             }
         }
     }
-    
-    public static void LogVectors(List<IVectorable> vectors)
+    public static void LogVectors(IVectorable[] vectors)
     {
-        for (int i = 0; i < vectors.Count; ++i)
+        for (int i = 0; i < vectors.Length; ++i)
         {
             IVectorable vec = vectors[i];
 
