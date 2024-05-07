@@ -1,0 +1,76 @@
+﻿  maLW4.cpp
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(13,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(15,3): error C2065: finit: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(17,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(17,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(18,3): error C2065: fldz: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(19,3): error C2065: fucomip: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(19,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(19,11): error C3861: st: идентификатор не найден
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(19,18): error C3861: st: идентификатор не найден
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(20,3): error C2065: je: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(20,6): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "_error"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(20,6): error C2065: _error: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(23,3): error C2065: fldpi: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(24,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(24,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(25,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(25,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(26,3): error C2065: fmul: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(27,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(27,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "b"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(28,3): error C2065: fadd: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(29,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(29,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(30,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(30,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(31,3): error C2065: fmul: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(32,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(32,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "b"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(33,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(34,3): error C2065: fmul: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(35,3): error C2065: fldz: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(36,3): error C2065: fucomip: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(36,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(36,11): error C3861: st: идентификатор не найден
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(36,18): error C3861: st: идентификатор не найден
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(37,3): error C2065: je: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(37,6): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "_error"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(37,6): error C2065: _error: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(39,3): error C2065: fdiv: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(41,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(41,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "b"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(42,3): error C2065: fcos: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(43,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(45,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(45,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(46,3): error C2065: fptan: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(47,3): error C2065: fdivr: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(48,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(50,3): error C2065: fldpi: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(51,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(51,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(52,3): error C2065: fmul: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(53,3): error C2065: fsin: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(54,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(56,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(56,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(57,3): error C2065: fptan: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(58,3): error C2065: fstp: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(58,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "st"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(58,8): error C3861: st: идентификатор не найден
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(59,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(61,3): error C2065: fldpi: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(62,3): error C2065: fld: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(62,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(63,3): error C2065: fmul: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(64,3): error C2065: fsub: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(66,3): error C2065: fst: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(66,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "result"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(67,3): error C2065: jmp: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(67,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "end"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(67,7): error C2065: end: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(70,3): error C2065: mov: необъявленный идентификатор
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(70,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "error"
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(73,2): error C2059: синтаксическая ошибка: }
+C:\Users\vvkos\source\repos\maLW4\maLW4\maLW4.cpp(93,15): warning C4566: символ, представленный универсальным именем символа "\u03C0", невозможно представить в текущей кодовой странице (1251)
