@@ -35,20 +35,34 @@ public static class Program
             switch (inp)
             {
                 case "1":
-                    /*arr.Add(CreateVector());*/
+                    //arr.Add(CreateVector());
+                    
                     IVectorable[] newArr = new IVectorable[arr.Length + 1];
                     for (int i = 0; i < arr.Length; i++)
                     {
                         newArr[i] = arr[i];
                     }
-                    
                     newArr[newArr.Length - 1] = CreateVector();
                     arr = newArr;
+                    newArr = null;
                     break;
                 case "2":
+                    LogVectors(arr);
                     Console.WriteLine("Укажите индекс по которому хотитете удалить вектор:");
-                    int inp1 = Convert.ToInt32(Console.ReadLine());
+                    int inp1 = Convert.ToInt32(Console.ReadLine()) - 1;
                     //arr.Remove(arr[inp1 - 1]);
+                    
+                    IVectorable[] removeArr = new IVectorable[arr.Length - 1];
+                    for (int i = 0, j = 0; i < arr.Length; i++)
+                    {
+                        if (i != inp1)
+                        {
+                            removeArr[j] = arr[i];
+                            j++;
+                        }
+                    }
+                    arr = removeArr;
+                    removeArr = null;
                     LogVectors(arr);
                     break;
                 case "3":
@@ -141,8 +155,16 @@ public static class Program
                     {
                         clone = (vec as LinkedListVector).Clone() as IVectorable;
                     }
-                    
                     //arr.Add(clone);
+                    
+                    IVectorable[] newCloneArr = new IVectorable[arr.Length + 1];
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        newCloneArr[i] = arr[i];
+                    }
+                    newCloneArr[newCloneArr.Length - 1] = clone;
+                    arr = newCloneArr;
+                    newCloneArr = null;
                     LogVectors(arr);
                     break;
                 case "6":
