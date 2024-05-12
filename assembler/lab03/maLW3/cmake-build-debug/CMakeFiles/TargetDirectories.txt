@@ -1,0 +1,3 @@
+D:/Code/labSpace/assembler/lab03/maLW3/cmake-build-debug/CMakeFiles/maLW3.dir
+D:/Code/labSpace/assembler/lab03/maLW3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/labSpace/assembler/lab03/maLW3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

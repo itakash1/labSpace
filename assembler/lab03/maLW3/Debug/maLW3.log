@@ -1,3 +1,3 @@
 ﻿  maLW3.cpp
-C:\Users\vvkos\source\repos\maLW3\maLW3\maLW3.cpp(22,2): warning C4102: end: неиспользованная метка
-  maLW3.vcxproj -> C:\Users\vvkos\source\repos\maLW3\Debug\maLW3.exe
+D:\Code\labSpace\assembler\lab03\maLW3\maLW3.cpp(22,2): warning C4102: end: неиспользованная метка
+  maLW3.vcxproj -> D:\Code\labSpace\assembler\lab03\Debug\maLW3.exe
