@@ -84,7 +84,8 @@ namespace lab04
             }
             public static IVectorable ReadVector(TextReader reader)
             {
-                string[] stringVector =  reader.ReadToEnd().Split(' ');
+                
+                string[] stringVector = reader.ReadToEnd().Trim().Split(' ');
         
                 ArrayVector vector = new ArrayVector(stringVector.Length - 1);
         
