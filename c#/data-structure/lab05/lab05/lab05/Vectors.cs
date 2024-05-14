@@ -22,6 +22,7 @@ namespace lab04
                 {
                     Sum[i] = vectorFirst[i] + vectorSecond[i];
                 }
+
                 return Sum;
             }
         }
@@ -40,6 +41,7 @@ namespace lab04
                 {
                     multi += vectorFirst[i] * vectorSecond[i];
                 }
+
                 return multi;
             }
         }
@@ -48,61 +50,66 @@ namespace lab04
         {
             return vector.GetNorm();
         }
-        
-         public static void OutputVector(IVectorable vector, Stream stream)
+
+        public static void OutputVector(IVectorable vector, Stream stream)
+        {
+            BinaryWriter bw = new BinaryWriter(stream);
+
+            bw.Write(vector.Length);
+
+            for (int i = 0; i < vector.Length; i++)
             {
-                BinaryWriter bw = new BinaryWriter(stream);
-        
-                bw.Write(vector.Length);
-        
-                for (int i = 0; i < vector.Length; i++)
-                {
-                    bw.Write(vector[i]);
-                }
-                bw.Close();
+                bw.Write(vector[i]);
             }
-            
-            public static IVectorable InputVector(Stream stream)
+
+            bw.Close();
+        }
+
+        public static IVectorable InputVector(Stream stream)
+        {
+            BinaryReader br = new BinaryReader(stream);
+
+            int length = br.ReadInt32();
+
+            ArrayVector vector = new ArrayVector(length);
+
+            for (int i = 0; i < vector.Length; i++)
             {
-                BinaryReader br = new BinaryReader(stream);
-        
-                int length = br.ReadInt32();
-        
-                ArrayVector vector = new ArrayVector(length);
-        
-                for (int i = 0; i < vector.Length; i++)
-                {
-                    vector[i] = br.ReadInt32();
-                }
-                br.Close();
-                return (IVectorable)vector;
+                vector[i] = br.ReadInt32();
             }
-            public static void WriteVector(IVectorable vector, TextWriter print)
+
+            br.Close();
+            return (IVectorable)vector;
+        }
+
+        public static void WriteVector(IVectorable vector, TextWriter print)
+        {
+            print.Write(vector);
+            print.Close();
+        }
+
+        public static IVectorable ReadVector(TextReader reader)
+        {
+
+            string[] stringVector = reader.ReadToEnd().Trim().Split(' ');
+
+            ArrayVector vector = new ArrayVector(stringVector.Length - 1);
+
+            try
             {
-                print.Write(vector);
-                print.Close();
+                for (int i = 1; i < stringVector.Length; i++)
+                {
+                    vector[i - 1] = int.Parse(stringVector[i]);
+                }
             }
-            public static IVectorable ReadVector(TextReader reader)
+            catch
             {
-                
-                string[] stringVector = reader.ReadToEnd().Trim().Split(' ');
-        
-                ArrayVector vector = new ArrayVector(stringVector.Length - 1);
-        
-                try
-                {
-                    for (int i = 1; i < stringVector.Length; i++)
-                    {
-                        vector[i - 1] = int.Parse(stringVector[i]);
-                    }
-                }
-                catch
-                {
-                    throw new FormatException("Ошибка, несуществующие значения");
-                }
-                reader.Close();
-        
-                return (IVectorable)vector;
+                throw new FormatException("Ошибка, несуществующие значения");
             }
+
+            reader.Close();
+
+            return (IVectorable)vector;
+        }
     }
 }

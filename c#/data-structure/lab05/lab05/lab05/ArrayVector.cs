@@ -12,7 +12,8 @@ namespace lab04
 {
     public class ArrayVector : IVectorable, IComparable
     {
-        int[] coordinates;
+
+        public int[] coordinates { get; set; }
 
         public ArrayVector(int lenght)
         {

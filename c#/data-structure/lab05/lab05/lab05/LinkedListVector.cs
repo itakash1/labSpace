@@ -22,9 +22,8 @@ public class LinkedListVector : IVectorable
         }
     }
 
-    private Node head;
+    private Node head { get; set; }
     private int length;
-
     public LinkedListVector(int length)
     {
         this.length = length;

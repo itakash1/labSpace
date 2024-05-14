@@ -144,6 +144,7 @@ namespace lab04
                 return 1;
             }
         }
+        
         public override bool Equals(object? obj)
         {
             if (!(obj is IVectorable))

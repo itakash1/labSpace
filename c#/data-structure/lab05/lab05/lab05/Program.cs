@@ -353,7 +353,7 @@ public static class Program
         FileStream inpStream;
         try
         {
-            inpStream = new FileStream("forVector.bin", FileMode.CreateNew, FileAccess.Write, FileShare.None);
+            inpStream = new FileStream("forVector.bin", FileMode.CreateNew);
         }
         catch
         {
@@ -389,10 +389,8 @@ public static class Program
         StreamWriter print = new StreamWriter(inpStream);
 
         Vectors.WriteVector(vec, print);
-
-        inpStream.Close();
-
         Console.WriteLine("Успешно записан в .txt!");
+        inpStream.Close();
 
         FileStream outputStream = new FileStream("forVector.txt", FileMode.Open, FileAccess.Read, FileShare.None);
         StreamReader reader = new StreamReader(outputStream);
@@ -408,10 +406,10 @@ public static class Program
 
         outputStream.Close();
     }
-
+    
     public static void SerializedeMethod()
     {
-        IVectorable vec = CreateVector();
+        ArrayVector vec = ArrayVector.UserInput();
         string serializedVector = JsonSerializer.Serialize(vec);
         FileStream inpStream;
         try
@@ -431,7 +429,6 @@ public static class Program
         Console.WriteLine("Успешно записан!");
 
         FileStream outputStream = new FileStream("forVector.json", FileMode.Open, FileAccess.Read, FileShare.None);
-        StreamReader reader = new StreamReader(outputStream);
 
         Console.WriteLine("Прочитанный вектор: " + JsonSerializer.Deserialize<ArrayVector>(outputStream));
         outputStream.Close();
