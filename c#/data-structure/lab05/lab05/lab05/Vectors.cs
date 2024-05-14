@@ -99,7 +99,6 @@ namespace lab04
                 {
                     throw new FormatException("Ошибка, несуществующие значения");
                 }
-        
                 reader.Close();
         
                 return (IVectorable)vector;

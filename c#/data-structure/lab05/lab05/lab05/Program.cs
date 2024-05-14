@@ -10,8 +10,9 @@ public static class Program
     {
         Console.WriteLine("Лабораторная работа #5\n 6104-020302D - Маликов Николай");
         TestArrayVectorsClass();
-       
+
     }
+
     public static void TestArrayVectorsClass()
     {
         List<IVectorable> arr = new List<IVectorable>();
@@ -46,6 +47,7 @@ public static class Program
                         Console.WriteLine("В данный момент это действие не возможно!");
                         throw;
                     }
+
                     break;
                 case "2":
                     try
@@ -60,6 +62,7 @@ public static class Program
                         Console.WriteLine("В данный момент это действие не возможно!");
                         throw;
                     }
+
                     break;
                 case "3":
                     try
@@ -103,7 +106,7 @@ public static class Program
                         Console.WriteLine("Вектора отсутствуют");
                         throw;
                     }
-                    
+
                     break;
                 case "4":
                     IVectorable temp;
@@ -121,7 +124,7 @@ public static class Program
                             }
                         }
                     }
-                    
+
                     Console.WriteLine("Список векторов после сортировки по модулю: ");
 
                     for (int i = 0; i < arr.Count; ++i)
@@ -129,6 +132,7 @@ public static class Program
                         IVectorable vec1 = arr[i];
                         vec1.Log($"{i + 1} Модуль: {vec1.GetNorm()}");
                     }
+
                     break;
                 case "5":
                     LogVectors(arr);
@@ -151,7 +155,7 @@ public static class Program
                     {
                         clone = (vec as LinkedListVector).Clone() as IVectorable;
                     }
-                    
+
                     arr.Add(clone);
                     LogVectors(arr);
                     break;
@@ -160,7 +164,7 @@ public static class Program
                     vect.Log();
                     IVectorable vect1 = CreateVector();
                     vect1.Log();
-                    
+
                     try
                     {
                         IVectorable resulta = Vectors.Sum(vect, vect1);
@@ -170,6 +174,7 @@ public static class Program
                     {
                         Console.WriteLine("Вектора разного размера!");
                     }
+
                     break;
                 case "7":
                     IVectorable vecc = CreateVector();
@@ -203,12 +208,13 @@ public static class Program
 
     public static void TestArrayVectorClass(ArrayVector vector)
     {
-        
+
     }
+
     public static void TestLinkedListVectorClass(LinkedListVector vec)
     {
         string inp;
-        
+
         vec.Log("Созданный вектор");
         while (true)
         {
@@ -226,118 +232,121 @@ public static class Program
             switch (inp)
             {
                 case "1":
+                {
+                    int value;
+                    do
                     {
-                        int value;
-                        do
-                        {
-                            Console.Write("Введите значение для добавления: ");
-                            inp = Console.ReadLine();
-                        } while (!int.TryParse(inp, out value));
+                        Console.Write("Введите значение для добавления: ");
+                        inp = Console.ReadLine();
+                    } while (!int.TryParse(inp, out value));
 
-                        vec.AddElementToStart(value);
-                        vec.Log("Обновленный вектор");
-                        break;
-                    }
+                    vec.AddElementToStart(value);
+                    vec.Log("Обновленный вектор");
+                    break;
+                }
                 case "2":
+                {
+                    int value;
+                    do
                     {
-                        int value;
-                        do
-                        {
-                            Console.Write("Введите значение для добавления: ");
-                            inp = Console.ReadLine();
-                        } while (!int.TryParse(inp, out value));
+                        Console.Write("Введите значение для добавления: ");
+                        inp = Console.ReadLine();
+                    } while (!int.TryParse(inp, out value));
 
-                        vec.AddElementToEnd(value);
-                        vec.Log("Обновленный вектор");
-                        break;
-                    }
+                    vec.AddElementToEnd(value);
+                    vec.Log("Обновленный вектор");
+                    break;
+                }
                 case "3":
+                {
+                    int value;
+                    do
                     {
-                        int value;
-                        do
-                        {
-                            Console.Write("Введите позицию для добавления: ");
-                            inp = Console.ReadLine();
-                        } while (!int.TryParse(inp, out value));
+                        Console.Write("Введите позицию для добавления: ");
+                        inp = Console.ReadLine();
+                    } while (!int.TryParse(inp, out value));
 
-                        int idx;
-                        do
-                        {
-                            Console.Write("Введите значение для добавления элемента: ");
-                            inp = Console.ReadLine();
-                        } while (!int.TryParse(inp, out idx));
+                    int idx;
+                    do
+                    {
+                        Console.Write("Введите значение для добавления элемента: ");
+                        inp = Console.ReadLine();
+                    } while (!int.TryParse(inp, out idx));
 
-                        try
-                        {
-                            vec.AddElementAtPosition(idx, value);
-                            vec.Log("Обновленный вектор");
-                        }
-                        catch (IndexOutOfRangeException e)
-                        {
-                            Console.WriteLine("Введенный индекс выходит за рамки связного списка");
-                        }
-                        break;
+                    try
+                    {
+                        vec.AddElementAtPosition(idx, value);
+                        vec.Log("Обновленный вектор");
                     }
+                    catch (IndexOutOfRangeException e)
+                    {
+                        Console.WriteLine("Введенный индекс выходит за рамки связного списка");
+                    }
+
+                    break;
+                }
                 case "4":
+                {
+                    try
                     {
-                        try
-                        {
-                            vec.RemoveElementFromStart();
-                            vec.Log("Обновленный вектор");
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Пустой вектор");
-                        }
-                        break;
+                        vec.RemoveElementFromStart();
+                        vec.Log("Обновленный вектор");
                     }
+                    catch
+                    {
+                        Console.WriteLine("Пустой вектор");
+                    }
+
+                    break;
+                }
                 case "5":
+                {
+                    try
                     {
-                        try
-                        {
-                            vec.RemoveElementFromEnd();
-                            vec.Log("Обновленный вектор");
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Пустой вектор");
-                        }
-                        break;
+                        vec.RemoveElementFromEnd();
+                        vec.Log("Обновленный вектор");
                     }
+                    catch
+                    {
+                        Console.WriteLine("Пустой вектор");
+                    }
+
+                    break;
+                }
                 case "6":
+                {
+                    int idx;
+                    do
                     {
-                        int idx;
-                        do
-                        {
-                            Console.Write("Введите индекс элемента который хотите удалить: ");
-                            inp = Console.ReadLine();
-                        } while (!int.TryParse(inp, out idx));
+                        Console.Write("Введите индекс элемента который хотите удалить: ");
+                        inp = Console.ReadLine();
+                    } while (!int.TryParse(inp, out idx));
 
-                        try
-                        {
-                            vec.RemoveElementAtPosition(idx);
-                            vec.Log("Обновленный вектор");
-                        }
-                        catch (IndexOutOfRangeException e)
-                        {
-                            Console.WriteLine("Введенный индекс выходит за рамки связного списка");
-                        }
-
-                        break;
+                    try
+                    {
+                        vec.RemoveElementAtPosition(idx);
+                        vec.Log("Обновленный вектор");
                     }
+                    catch (IndexOutOfRangeException e)
+                    {
+                        Console.WriteLine("Введенный индекс выходит за рамки связного списка");
+                    }
+
+                    break;
+                }
                 case "0":
-                    {
-                        return;
-                    }
+                {
+                    return;
+                }
                 default:
-                    {
-                        Console.WriteLine("Нет такого пункта в меню");
-                        break;
-                    }
+                {
+                    Console.WriteLine("Нет такого пункта в меню");
+                    break;
+                }
             }
         }
     }
-    
+
     public static void BinaryFlow()
     {
         IVectorable vec = CreateVector();
@@ -357,19 +366,22 @@ public static class Program
 
         FileStream outputStream = new FileStream("forVector.bin", FileMode.Open, FileAccess.Read, FileShare.None);
 
+        Console.WriteLine("\nПрочитанный вектор: " + Vectors.InputVector(outputStream).ToString());
+
         outputStream.Close();
     }
-    
+
     public static void FileFlow()
     {
         IVectorable vec = CreateVector();
 
         FileStream inpStream;
+        
         try
         {
             inpStream = new FileStream("forVector.txt", FileMode.CreateNew, FileAccess.Write, FileShare.None);
         }
-        catch 
+        catch
         {
             inpStream = new FileStream("forVector.txt", FileMode.Truncate, FileAccess.Write, FileShare.None);
         }
@@ -380,39 +392,53 @@ public static class Program
 
         inpStream.Close();
 
-        Console.WriteLine("Успешно записан!");
+        Console.WriteLine("Успешно записан в .txt!");
 
         FileStream outputStream = new FileStream("forVector.txt", FileMode.Open, FileAccess.Read, FileShare.None);
         StreamReader reader = new StreamReader(outputStream);
+
+        try
+        {
+            Console.WriteLine("Прочитанный вектор:" + Vectors.ReadVector(reader));
+        }
+        catch (System.FormatException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+
         outputStream.Close();
     }
-    
+
     public static void SerializedeMethod()
     {
         IVectorable vec = CreateVector();
-        Console.WriteLine("Успешно добавлен в .JSON. Сериализация прошла успешно!\n");
-
         string serializedVector = JsonSerializer.Serialize(vec);
-
-        FileStream serializingStream;
+        FileStream inpStream;
         try
         {
-            serializingStream = new FileStream("forVector.json", FileMode.CreateNew, FileAccess.Write, FileShare.None);
+            inpStream = new FileStream("forVector.json", FileMode.CreateNew, FileAccess.Write, FileShare.None);
         }
-        catch 
+        catch
         {
-            serializingStream = new FileStream("forVector.json", FileMode.Truncate, FileAccess.Write, FileShare.None);
+            inpStream = new FileStream("forVector.json", FileMode.Truncate, FileAccess.Write, FileShare.None);
         }
 
-        StreamWriter writer = new StreamWriter(serializingStream);
+        StreamWriter print = new StreamWriter(inpStream);
+        print.Write(serializedVector);
+        print.Close();
+        inpStream.Close();
 
-        writer.Write(serializedVector);
+        Console.WriteLine("Успешно записан!");
 
-        writer.Close();
-        serializingStream.Close();
+        FileStream outputStream = new FileStream("forVector.json", FileMode.Open, FileAccess.Read, FileShare.None);
+        StreamReader reader = new StreamReader(outputStream);
+
+        Console.WriteLine("Прочитанный вектор: " + JsonSerializer.Deserialize<ArrayVector>(outputStream));
+        outputStream.Close();
     }
 
-    public static IVectorable CreateVector()
+
+public static IVectorable CreateVector()
     {
         while (true)
         {

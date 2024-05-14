@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace lab04;
 
-public class Comparer : IComparer
+public class Comparer
 {
     public int Compare(object? obj1, object? obj2)
     {
