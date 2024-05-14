@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20d48a52-dc26-4c37-ac9b-7f8a54c73054" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/bin/Debug/net8.0/lab04.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/bin/Debug/net8.0/lab04.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/bin/Debug/net8.0/lab04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/bin/Debug/net8.0/lab04.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/lab04.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/ref/lab04.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/ref/lab04.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/refint/lab04.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/Debug/net8.0/refint/lab04.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/lab04.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/lab04.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/lab04.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/lab04.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab04/lab04/lab04/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/forVector.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/forVector.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/forVector.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/forVector.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/lab05.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/lab05.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/lab05.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/bin/Debug/net8.0/lab05.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/lab05.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/ref/lab05.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/ref/lab05.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/refint/lab05.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/Debug/net8.0/refint/lab05.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/lab05.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/lab05.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/lab05.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/lab05.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;itakash1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:itakash1/labSpace.git&quot;,
+    &quot;accountId&quot;: &quot;0519d5d8-9aea-4808-afb1-a2bfb348eda7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gRAZiwnCbUMEz1U970KGKCtnJy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20d48a52-dc26-4c37-ac9b-7f8a54c73054" name="Changes" comment="" />
+      <created>1715650074634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715650074634</updated>
+      <workItem from="1715650076289" duration="51000" />
+      <workItem from="1715650232338" duration="1242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

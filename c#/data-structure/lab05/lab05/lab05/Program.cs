@@ -37,13 +37,29 @@ public static class Program
             switch (inp)
             {
                 case "1":
-                    arr.Add(CreateVector());
+                    try
+                    {
+                        arr.Add(CreateVector());
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("В данный момент это действие не возможно!");
+                        throw;
+                    }
                     break;
                 case "2":
-                    Console.WriteLine("Укажите индекс по которому хотитете удалить вектор:");
-                    int inp1 = Convert.ToInt32(Console.ReadLine());
-                    arr.Remove(arr[inp1 - 1]);
-                    LogVectors(arr);
+                    try
+                    {
+                        Console.WriteLine("Укажите индекс по которому хотитете удалить вектор:");
+                        int inp1 = Convert.ToInt32(Console.ReadLine());
+                        arr.Remove(arr[inp1 - 1]);
+                        LogVectors(arr);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("В данный момент это действие не возможно!");
+                        throw;
+                    }
                     break;
                 case "3":
                     try
@@ -330,14 +346,14 @@ public static class Program
         {
             inpStream = new FileStream("forVector.bin", FileMode.CreateNew, FileAccess.Write, FileShare.None);
         }
-        catch 
+        catch
         {
-            inpStream = new FileStream("forVector.bin", FileMode.Truncate, FileAccess.Write, FileShare.None); //Если файл уже существует просто открываем на запись
+            inpStream = new FileStream("forVector.bin", FileMode.Truncate, FileAccess.Write, FileShare.None);
         }
 
         Vectors.OutputVector(vec, inpStream);
         inpStream.Close();
-        Console.WriteLine("Файл успешно записан!");
+        Console.WriteLine("Успешно записан!");
 
         FileStream outputStream = new FileStream("forVector.bin", FileMode.Open, FileAccess.Read, FileShare.None);
 
@@ -364,7 +380,7 @@ public static class Program
 
         inpStream.Close();
 
-        Console.WriteLine("Вектор успешно записан в .txt файл!");
+        Console.WriteLine("Успешно записан!");
 
         FileStream outputStream = new FileStream("forVector.txt", FileMode.Open, FileAccess.Read, FileShare.None);
         StreamReader reader = new StreamReader(outputStream);
@@ -374,6 +390,7 @@ public static class Program
     public static void SerializedeMethod()
     {
         IVectorable vec = CreateVector();
+        Console.WriteLine("Успешно добавлен в .JSON. Сериализация прошла успешно!\n");
 
         string serializedVector = JsonSerializer.Serialize(vec);
 
@@ -393,9 +410,6 @@ public static class Program
 
         writer.Close();
         serializingStream.Close();
-
-        FileStream outputStream = new FileStream("forVector.json", FileMode.Open, FileAccess.Read, FileShare.None);
-        StreamReader reader = new StreamReader(outputStream);
     }
 
     public static IVectorable CreateVector()
@@ -413,13 +427,11 @@ public static class Program
                     string inp;
                     int length;
                     LinkedListVector vec = LinkedListVector.UserInput();
-                    vec.Log("Созданный вектор");
                     TestLinkedListVectorClass(vec);
                     return vec;
                     break;
                 case "2":
                     ArrayVector vector = ArrayVector.UserInput();
-                    vector.Log("Новый вектор");
                     TestArrayVectorClass(vector);
                     return vector;
                     break;

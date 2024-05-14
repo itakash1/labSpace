@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Takashi\\.nuget\\packages\\": {}
+    "/Users/takashi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\labSpace\\c#\\data-structure\\lab04\\lab04\\lab04\\lab04.csproj",
+      "projectUniqueName": "/Users/takashi/Documents/labSpace/c#/data-structure/lab04/lab04/lab04/lab04.csproj",
       "projectName": "lab04",
-      "projectPath": "E:\\Code\\labSpace\\c#\\data-structure\\lab04\\lab04\\lab04\\lab04.csproj",
-      "packagesPath": "C:\\Users\\Takashi\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\labSpace\\c#\\data-structure\\lab04\\lab04\\lab04\\obj\\",
+      "projectPath": "/Users/takashi/Documents/labSpace/c#/data-structure/lab04/lab04/lab04/lab04.csproj",
+      "packagesPath": "/Users/takashi/.nuget/packages/",
+      "outputPath": "/Users/takashi/Documents/labSpace/c#/data-structure/lab04/lab04/lab04/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Takashi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/takashi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Takashi\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/takashi/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
