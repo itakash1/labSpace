@@ -1,0 +1,15 @@
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/bin/Debug/net8.0/lab06
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/bin/Debug/net8.0/lab06.deps.json
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/bin/Debug/net8.0/lab06.runtimeconfig.json
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/bin/Debug/net8.0/lab06.dll
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/bin/Debug/net8.0/lab06.pdb
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.GeneratedMSBuildEditorConfig.editorconfig
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.AssemblyInfoInputs.cache
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.AssemblyInfo.cs
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.csproj.CoreCompileInputs.cache
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.sourcelink.json
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.dll
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/refint/lab06.dll
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.pdb
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/lab06.genruntimeconfig.cache
+/Users/takashi/Documents/labSpace/c#/data-structure/lab06/lab06/lab06/obj/Debug/net8.0/ref/lab06.dll
