@@ -8,32 +8,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08411175-8c80-4646-8e43-eb9a36e43cbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab06/ArrayVector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/Comparer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/IVectorable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/LinkedListVector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/Vectors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab06/lab06.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../assembler/fin отчет/6104.Маликов Н.Д. Отчет ЭВМ 2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../assembler/fin отчет/6104.Маликов Н.Д. Отчет ЭВМ 2023.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab05/lab05/lab05/obj/Debug/net8.0/lab05.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab05/lab05/lab05/obj/Debug/net8.0/lab05.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab05/lab05/lab05/obj/Debug/net8.0/lab05.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab05/lab05/lab05/obj/Debug/net8.0/lab05.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab05/~$05 Маликов 6104.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/bin/Debug/net8.0/lab06.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/lab06.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/ref/lab06.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/ref/lab06.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/refint/lab06.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/Debug/net8.0/refint/lab06.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/lab06.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/lab06.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/lab06.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/lab06.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab06/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab06/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2giY1Lbc06PNK87WYLvRGltM7S3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,9 +72,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "/Users/takashi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/takashi/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/takashi/.local/share/Symbols/src"
+      "C:\\Users\\Takashi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Takashi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Takashi\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -95,12 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1716181649085</updated>
       <workItem from="1716181650367" duration="4926000" />
+      <workItem from="1716244892215" duration="361000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

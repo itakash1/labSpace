@@ -24,10 +24,8 @@ public static class Program
                           "\t9. Запись вектора в бинарный поток\n" +
                           "\t10. Запись вектора в текстовый файл\n" +
                           "\t11. Сериализация вектора\n");
-
+        
         List<IVectorable> arr = new List<IVectorable>();
-        LogVectors(arr);
-
         TestFunctionProgramMenu menu = null;
 
         Console.Write("Введите порядок выполнения действий программы через пробел: ");
@@ -75,10 +73,10 @@ public static class Program
                     break;
                 
             }
-            menu(arr);
-            Console.WriteLine("Прорамма завершила работу . . .");
-            Console.ReadKey();
         }
+        menu(arr);
+        Console.WriteLine("Программа завершила свое выполнение!");
+        Console.ReadKey();
     }
 
     public static void AddVector(List<IVectorable> arr)
